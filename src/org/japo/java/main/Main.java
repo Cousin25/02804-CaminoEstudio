@@ -40,14 +40,12 @@ public class Main {
 
             dias = CAMINO / km;
 
-            System.out.printf(Locale.ENGLISH, "Días de Clases/Camino ........: %d%n", 
-                    (int)dias < dias ? (int)dias + 1 : (int)dias);
-            
+            System.out.printf(Locale.ENGLISH, "Días de Clases/Camino ........: %d%n",
+                    (int) dias < dias ? (int) dias + 1 : (int) dias);
+
         } catch (Exception e) {
             System.out.println("Error de entrada");
             SCN.nextLine();
         }
-
     }
-
 }
